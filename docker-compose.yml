@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  redis:
+    image: redis:7-alpine3.15
+    ports:
+      - 6379:6379
+  mail:
+    image: inbucket/inbucket:stable
+    ports:
+      - 9001:9000
+      - 2500:2500
+      - 1100:1100
