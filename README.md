@@ -4,62 +4,35 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# {repo-template}
+# QTrees Assistant Services
 
-<!--
-
-How to:
-
-- You dont need to use every section. Only the ones that apply to your project.
-- Adjust the files on .github/ISSUE_TEMPLATE/* how you need them
-- Adjust the file on .github/CODEOWNERS to match your team
-- If you use staging and main branches use this template for .github/renovate.json
-
-
-```json
-{
-   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "@inpyjamas"
-  ],
-    "baseBranches": [
-    "staging"
-  ]
-}
-```
-
-Bonus:
-
-Use all-contributors
-
-npx all-contributors-cli check
-npx all-contributors-cli add ff6347 doc
-
-You can use it on GitHub just by commeting on PRs and issues:
-
-```
-@all-contributors please add @ff6347 for infrastructure, tests and code
-```
-Read more here https://allcontributors.org/
-
-
-Get fancy shields at https://shields.io
- -->
-
-Add your project description here
+These are some assistant services we need for running QTrees frontend, API and subscription services. Currently it is only redis and inbucket for development purpose.
 
 ## Prerequisites
 
+- Docker
+
 ## Installation
 
-## Usage or Deployment
+git clone git@github.com:technologiestiftung/qtrees-assistant-services.git
 
+## Usage
+
+```bash
+docker compose up
+```
 ## Development
 
-## Tests
+```bash
+docker compose up
+```
+## Deployment
+
+tbd
 
 ## Contributing
 
+Before you create a pull request, write an issue so we can discuss your changes.
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -86,7 +59,6 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/).
 
-Illustrations by Maria Musterfrau, all rights reserved.
 
 ## Credits
 
@@ -117,3 +89,10 @@ Illustrations by Maria Musterfrau, all rights reserved.
 </table>
 
 ## Related Projects
+
+- [technologiestiftung/qtrees-assistant-services](https://github.com/technologiestiftung/qtrees-assistant-services)
+- [technologiestiftung/qtrees-subscriptions](https://github.com/technologiestiftung/qtrees-subscriptions)
+- [technologiestiftung/qtrees-backend](https://github.com/technologiestiftung/qtrees-backend)
+- [technologiestiftung/qtrees-supabase](https://github.com/technologiestiftung/qtrees-supabase)
+- [technologiestiftung/qtrees-frontend](https://github.com/technologiestiftung/qtrees-frontend)
+<!-- - [technologiestiftung/qtrees-ai-data](https://github.com/technologiestiftung/qtrees-ai-data) -->

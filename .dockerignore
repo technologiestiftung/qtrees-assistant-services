@@ -1,0 +1,9 @@
+.github
+.vscode
+node_modules
+docker-compose*.yml
+README.md
+LICENSE
+.dockerignore
+.gitignore
+.all-contributorsrc
